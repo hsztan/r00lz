@@ -3,7 +3,6 @@
 require_relative 'r00lz/version'
 
 module R00lz
-  # The App class has a call method that returns a 200 status code, a Content-Type header, and a body.
   class App
     def call(_env)
       [200,
